@@ -103,3 +103,10 @@ func TestAllTheDots(t *testing.T) {
 		t.Error("Result path is ", parsePath(path))
 	}
 }
+
+func TestMoreThanNeeded(t *testing.T) {
+	path := "./home/test/../../../../../../"
+	if parsePath(path) != "/" {
+		t.Error("Result path is ", parsePath(path))
+	}
+}

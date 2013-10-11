@@ -26,5 +26,7 @@
 --- PASS: TestDotBetweenChars (0.00 seconds)
 === RUN TestAllTheDots
 --- PASS: TestAllTheDots (0.00 seconds)
+=== RUN TestMoreThanNeeded
+--- PASS: TestMoreThanNeeded (0.00 seconds)
 PASS
-ok  	_/home/ndyakov/code/go/go-learn/homeworks/homework1	0.010s
+ok  	_/home/ndyakov/code/go/go-learn/homeworks/homework1	0.008s
