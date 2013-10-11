@@ -1,0 +1,30 @@
+=== RUN TestFirstParsePath
+--- PASS: TestFirstParsePath (0.00 seconds)
+=== RUN TestSecondParsePath
+--- PASS: TestSecondParsePath (0.00 seconds)
+=== RUN TestThirdParsePath
+--- PASS: TestThirdParsePath (0.00 seconds)
+=== RUN TestSomeHiddenPaths
+--- PASS: TestSomeHiddenPaths (0.00 seconds)
+=== RUN TestEmptyPath
+--- PASS: TestEmptyPath (0.00 seconds)
+=== RUN TestEmptyPathWithDot
+--- PASS: TestEmptyPathWithDot (0.00 seconds)
+=== RUN TestShouldReturnTheSamePath
+--- PASS: TestShouldReturnTheSamePath (0.00 seconds)
+=== RUN TestNumbersInPath
+--- PASS: TestNumbersInPath (0.00 seconds)
+=== RUN TestSpacesInPath
+--- PASS: TestSpacesInPath (0.00 seconds)
+=== RUN TestDoubleDots
+--- PASS: TestDoubleDots (0.00 seconds)
+=== RUN TestWithNewLineChars
+--- PASS: TestWithNewLineChars (0.00 seconds)
+=== RUN TestDotsAndSpacesInPath
+--- PASS: TestDotsAndSpacesInPath (0.00 seconds)
+=== RUN TestDotBetweenChars
+--- PASS: TestDotBetweenChars (0.00 seconds)
+=== RUN TestAllTheDots
+--- PASS: TestAllTheDots (0.00 seconds)
+PASS
+ok  	_/home/ndyakov/code/go/go-learn/homeworks/homework1	0.010s
