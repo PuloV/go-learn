@@ -117,3 +117,10 @@ func TestStartWithDoubleDots(t *testing.T) {
 		t.Error("Result path is ", parsePath(path))
 	}
 }
+
+func TestMoreThanOneSingleDot(t *testing.T) {
+	path := "./test/./../result/."
+	if parsePath(path) != "/result/" {
+		t.Error("Result path is ", parsePath(path))
+	}
+}

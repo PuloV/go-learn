@@ -30,5 +30,7 @@
 --- PASS: TestMoreThanNeeded (0.00 seconds)
 === RUN TestStartWithDoubleDots
 --- PASS: TestStartWithDoubleDots (0.00 seconds)
+=== RUN TestMoreThanOneSingleDot
+--- PASS: TestMoreThanOneSingleDot (0.00 seconds)
 PASS
-ok  	_/home/ndyakov/code/go/go-learn/homeworks/homework1	0.015s
+ok  	_/home/ndyakov/code/go/go-learn/homeworks/homework1	0.010s
