@@ -110,3 +110,10 @@ func TestMoreThanNeeded(t *testing.T) {
 		t.Error("Result path is ", parsePath(path))
 	}
 }
+
+func TestStartWithDoubleDots(t *testing.T) {
+	path := "../../stupid/../../test"
+	if parsePath(path) != "/test/" {
+		t.Error("Result path is ", parsePath(path))
+	}
+}
