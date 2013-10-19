@@ -22,6 +22,6 @@ func TestFifty(t *testing.T) {
 	}
 	result := fractal.Next()
 	if result != "right" {
-		t.Errorf("Expected `%s` but got `%s` for step `%d`", "right", result, 50)
+		t.Errorf("Expected `%s` but got `%s` for step `%d`", "right", result, 49)
 	}
 }
