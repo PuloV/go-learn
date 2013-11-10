@@ -25,3 +25,10 @@ func TestFifty(t *testing.T) {
 		t.Errorf("Expected `%s` but got `%s` for step `%d`", "right", result, 49)
 	}
 }
+
+func BenchmarkDragon(t *testing.B) {
+	fractal := new(DragonFractal)
+	for i:= 0; i< t.N; i++ {
+		fractal.Next()
+	}
+}
